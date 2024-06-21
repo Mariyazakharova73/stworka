@@ -1,7 +1,6 @@
 :root {
 	--accent-color: #3579f5;
 	--accent-color-dark: #2364db;
-
 	--button-text: #4777ed;
 	--button-bg: #f4f8ff;
 	--text-color: #ffffff;
@@ -9,8 +8,7 @@
 	--font-s: 14px;
 	--font-m: 15px;
 	--font-xl: 20px;
-
-	/* progress data*/
+	/* progress-bar data*/
 	--total: 7;
 	--current: 0.15;
 	--radius: calc(60px * 0.48);
@@ -42,7 +40,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 	width: 743px;
 	min-height: 91px;
 	border-radius: 10px;
@@ -71,7 +68,7 @@ body {
 }
 
 .circle {
-  margin-top: 4px;
+	margin-top: 4px;
 	position: relative;
 	width: 60px;
 	height: 60px;
@@ -148,8 +145,8 @@ body {
 	border-radius: 6px;
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;
-  font-size: var(--font-s);
-  line-height: 1.43;
+	font-size: var(--font-s);
+	line-height: 1.43;
 }
 
 .button:hover {
