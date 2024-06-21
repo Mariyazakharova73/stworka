@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Progress</title>
+		<link rel="stylesheet" href="./vendor/normalize.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="stylesheet" href="./fonts/inter.css" />
+	</head>
+	<body>
+		<header></header>
+		<main class="content">
+			<div class="progress-bar">
+				<div class="progress-bar__wrapper">
+					<div class="circle">
+						<svg class="circle__svg">
+							<circle class="circle__bg" cx="50%" cy="50%" r="48%"></circle>
+							<circle
+								class="circle__progress"
+								cx="50%"
+								cy="50%"
+								r="48%"
+							></circle>
+						</svg>
+						<div class="circle__text">
+							<span>0/7</span>
+						</div>
+					</div>
+					<div class="progress-bar__text">
+						<h2 class="progress-bar__title">Чеклист</h2>
+						<p class="progress-bar__info">Выполнено: 0 из 7 действий</p>
+						<p>Следующее действие: Созвониться с клиентом до 23.05.24 12:00</p>
+					</div>
+				</div>
+				<button class="button" type="button">Открыть чеклист</button>
+			</div>
+		</main>
+		<footer></footer>
+	</body>
+</html>
